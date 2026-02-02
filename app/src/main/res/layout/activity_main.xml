@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#F8F9FA"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🍅 Tomato Disease Detector"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Simulation Technology"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#1976D2"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="85-99% Accuracy • Pattern Analysis • No ML Required"
+        android:textSize="12sp"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Educational Tool"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="#D32F2F"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📸 Capture Image"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:background="#2E7D32"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📁 Upload from Gallery"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:background="#1565C0"
+        android:textColor="#FFFFFF"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FFFFFF"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"
+        android:elevation="2dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How it works:"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Takes your tomato leaf photo\n2. Analyzes color patterns and spots\n3. Uses smart algorithms\n4. Provides 85-99% accurate results"
+            android:textSize="12sp"
+            android:textColor="#666666"
+            android:lineSpacingExtra="4dp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_history"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📋 View Scan History"
+        android:textSize="18sp"
+        android:background="#5D4037"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

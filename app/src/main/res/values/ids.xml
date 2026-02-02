@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="image_view" type="id" />
+    <item name="progress_bar" type="id" />
+    <item name="btn_analyze" type="id" />
+    <item name="tv_status" type="id" />
+    <item name="btn_retake" type="id" />
+    <item name="btn_choose_another" type="id" />
+    <item name="history_container" type="id" />
+    <item name="btn_delete" type="id" />
+</resources>

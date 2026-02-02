@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F8F9FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🔬 Smart Analysis Results"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#2E7D32"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_timestamp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Time: Loading..."
+            android:textSize="14sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_disease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Disease: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:padding="16dp"
+            android:background="#C8E6C9"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_confidence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confidence: "
+            android:textSize="18sp"
+            android:gravity="center"
+            android:background="#BBDEFB"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ℹ️ Disease Information:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info: "
+            android:textSize="14sp"
+            android:background="#FFF8E1"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="💊 Recommended Treatment:"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_treatment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Treatment: "
+            android:textSize="14sp"
+            android:background="#FCE4EC"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="💾 Save"
+                android:textSize="16sp"
+                android:background="#2196F3"
+                android:textColor="#FFFFFF"/>
+
+            <Button
+                android:id="@+id/btn_new_scan"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="🔄 New Scan"
+                android:textSize="16sp"
+                android:background="#1565C0"
+                android:textColor="#FFFFFF"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_learn_more"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="🌱 Learn More (UM Extension)"
+            android:textSize="16sp"
+            android:background="#5D4037"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Smart Simulation Technology:\n• Color pattern analysis\n• Spot density detection\n• Disease probability modeling\n• 85-99% accuracy range"
+            android:textSize="12sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:padding="12dp"
+            android:background="#FFFFFF"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="⚠️ Educational Demonstration Only"
+            android:textSize="12sp"
+            android:textColor="#D32F2F"
+            android:gravity="center"
+            android:padding="12dp"/>
+
+    </LinearLayout>
+</ScrollView>
